@@ -1,8 +1,9 @@
-Randomized with seed 58803
+$ npx jasmine
+Randomized with seed 32076
 Started
 ..
 
 
 2 specs, 0 failures
 Finished in 0.006 seconds
-Randomized with seed 58803 (jasmine --random=true --seed=58803)
+Randomized with seed 32076 (jasmine --random=true --seed=32076)
