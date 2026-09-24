@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+    <title>Interest Rate Calculator</title>
+    <meta name="description" content="Calculate simple interest and total amount with our Interest Rate Calculator.">
+
     <link rel="icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
@@ -9,28 +12,34 @@
 
 <body>
     <div class="container">
-        Interest Rate Calculator
+        <h1>Interest Rate Calculator</h1>
+
         <div class="input-wrapper">
             <div class="wrapper">
                 <label for="principal">Principal Amount</label>
                 <input type="number" id="principal" value="1000" />
             </div>
         </div>
+
         <div class="input-wrapper">
             <div class="wrapper">
                 <label for="rate">Rate (%)</label>
                 <input type="number" id="rate" value="5" />
             </div>
         </div>
+
         <div class="input-wrapper">
             <div class="wrapper">
                 <label for="time">Time (Years)</label>
                 <input type="number" id="time" value="1" />
             </div>
         </div>
+
         <button id="calculate-btn" onclick="calculate()">Calculate</button>
         <div id="result"></div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
